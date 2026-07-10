@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar css start */
+
+#navbar{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+#navbar .menu-items{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    
+}
+
+#navbar .menu-items li a{
+    color: #575757;
+    font-weight: 500;
+    font-family: "Arimo", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    
+}
+#navbar .menu-items li a:hover{
+    color:#0d0d0d;
+}
+
+#navbar .nav-btn{
+    color:#fff ;
+    border:none;
+    background: #1D4ED8;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+#navbar .nav-btn:hover{
+    background: #072a8b;
+}
+
+/* navbar css end */
+
+
+
+/* hero-part css start */
+
+#hero-part{
+    background: url(../assets/banner.jpg) no-repeat center;
+    background-size: cover;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+#hero-part .overlay{
+    background: #000;
+    opacity: 0.5;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+#hero-part .text{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+
+#hero-part .text h2{
+    color:#fff;
+    font-size: 80px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+#hero-part .text p{
+    color:#fff;
+    opacity: 0.9;
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    width: 800px;
+    margin: auto;
+    line-height: 24px;
+}
+
+#hero-part .hero-btn{
+    color:#fff ;
+    border:none;
+    background: #1D4ED8;
+    padding: 12px 24px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 250px;
+    transition: 0.3s ease;
+}
+#hero-part .hero-btn:hover{
+    background: #072a8b;
+    cursor: pointer;
+}
+
+
+/* hero-part css end */
+
+
+/* speakers part start */
+
+#speaker-part{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+#speaker-part h2{
+    font-family: "Inter", sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+    color:#000102;
+    text-align: center;
+    padding: 80px 0 46px 0;
+}
+#speaker-part .speakers{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+
+#speaker-part .speaker-card{
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+}
+
+#speaker-part .speaker-card img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#speaker-part .speaker-card .img{
+    width: 100%;
+    height: auto;
+}
+#speaker-part .speaker-card .text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 24px;
+}
+#speaker-part .speaker-card .text .title{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;   
+    color:#2563EB
+
+}
+#speaker-part .speaker-card .text h4{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Inter", sans-serif;   
+    color:#0D1B2A
+
+}
+#speaker-part .speaker-card .text .designation{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;   
+    color:#575757;
+}
+/* speakers part end */
+
+
+
+
+/* price-part start */
+
+#price-part{
+    max-width: 1200px;
+    margin: auto;
+}
+#price-part .title{
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "Inter", sans-serif; 
+    text-align: center;  
+    color:#0D1B2A;
+    padding-bottom: 12px;
+}
+#price-part .sub-title{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif; 
+    text-align: center;  
+    color:#575757;
+}
+#price-part .price-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 60px;
+}
+#price-part .price-card .price{
+     border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 32px;
+}
+#price-part .price-card .price p{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif; 
+    color:#888888;
+}
+#price-part .price-card .price h5{
+    font-size: 44px;
+    font-weight: 800;
+    font-family: "Inter", sans-serif; 
+    color:#0D1B2A;
+    padding: 5px 0;
+}
+#price-part .price-card .price .person{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif; 
+    color:#888888;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+#price-part .price-card ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+
+
+
+/* price-part end */
