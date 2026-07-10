@@ -223,6 +223,12 @@
      border: 1px solid #E5E7EB;
     border-radius: 10px;
     padding: 32px;
+    transition: all .3s ease;
+}
+
+
+#price-part .price-card .price:hover{
+    scale: calc(.97);
 }
 #price-part .price-card .price p{
     font-size: 13px;
@@ -273,11 +279,147 @@
     padding: 10px;
     width: 100%;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 
+/* middle card */
+#price-part .price-card .price-middle{
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 32px;
+    background: #0D1B2A;
+    transition: all .3s ease;
+}
+
+#price-part .price-card .price-middle:hover{
+    scale: calc(.97);
+}
+
+#price-part .price-card .price-middle p{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif; 
+    color:#93C5FD;
+}
+#price-part .price-card .price-middle h5{
+    font-size: 44px;
+    font-weight: 800;
+    font-family: "Inter", sans-serif; 
+    color:#ffffff;
+    padding: 5px 0;
+}
+#price-part .price-card .price-middle .person{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif; 
+    color:#ffffff;
+    opacity: 60%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E5E7EB;
+}
 
 
+#price-part .price-card .price-middle ul li{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif; 
+    color:#ffffff;
+    opacity: 80%;
+}
+#price-part .price-card ul li::marker{
+    color:#2563EB;
+}
+#price-part .price-card .price-middle .btn{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif; 
+    color:#ffffff;
+    border: 1px solid #2563EB;
+    background: #2563EB ;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
 
 
 /* price-part end */
+
+
+/* ai part start */
+
+#ai-part{
+    max-width: 1200px;
+    margin: auto;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted gray;
+    margin-bottom: 40px;
+}
+/* ai part end */
+
+
+
+
+/* footer part start */
+
+#footer-part{
+    background: #0D1B2A;
+}
+
+#footer-part .footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+#footer-part .footer-bottom{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+#footer-part .footer-bottom p{
+     font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif; 
+    color:#ffffff;
+    opacity: 40%;
+}
+
+#footer-part .footer-bottom ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+   
+}
+#footer-part .footer-bottom ul li{
+    list-style: none;
+
+}
+
+#footer-part .footer-bottom ul li a{
+     font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif; 
+    color:#ffffff;
+    opacity: 40%;
+    text-decoration: none;
+}
+
+#footer-part hr{
+    border: none;
+    border-top: 1px solid #575757;
+}
+/* footer part end */
