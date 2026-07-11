@@ -122,7 +122,7 @@ html{
     background: #1D4ED8;
     padding: 12px 24px;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 600;
     font-family: "Inter", sans-serif;
     border-radius: 10px;
     cursor: pointer;
@@ -274,10 +274,10 @@ html{
 #price-part .price-card ul{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
     padding-top: 20px;
     padding-left: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 #price-part .price-card ul li{
     font-size: 14px;
@@ -360,7 +360,7 @@ html{
     color:#ffffff;
     border: 1px solid #2563EB;
     background: #2563EB ;
-    padding: 10px;
+    padding:10px;
     width: 100%;
     border-radius: 10px;
     cursor: pointer;
@@ -523,6 +523,8 @@ html{
 #footer-part hr{
     border: none;
     border-top: 1px solid #575757;
+    width: 1200px;
+    margin: auto;
 }
 
 #footer-part .footer-bottom{
@@ -531,7 +533,7 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 
