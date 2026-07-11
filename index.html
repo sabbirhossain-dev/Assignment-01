@@ -11,11 +11,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
 
     <!-- navbar part start -->
-    <header>
+    <header class="full-nav">
         <nav id="navbar">
 
             <!-- logo -->
@@ -30,7 +34,7 @@
                     <li><a href="#">Schedule</a></li>
                     <li><a href="#">Tracks</a></li>
                     <li><a href="#">Venue</a></li>
-                    <li><a href="#Blog"></a></li>
+                    <li><a href="#">Blog</a></li>
                 </ul>
             </div>
 
@@ -199,16 +203,20 @@
         <section id="footer-part">
             <div class="footer">
                 <div>
-                <img src="./assets/footer-logo.png" alt="logo">
+                    <a href="#"><img src="./assets/footer-logo.png" alt="logo"></a>
             </div>
 
             <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Insta</a></li>
-                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#" class="facebook"><i class="fa-brands fa-square-facebook"></i></a></li>
+                <li><a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a></li>
             </ul>
             </div>
+
             <hr>
+
+            <!-- footer bottom -->
            <div class="footer-bottom">
              <p>© 2026 DevConf. All rights reserved.</p>
             <ul>
